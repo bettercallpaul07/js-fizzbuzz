@@ -17,39 +17,18 @@ body {
     border: 1px solid;
     margin: 10px;
     text-align: center;
+    font-weight: bold;
     background-color: blue;
 }
 
 .fizzbuzz {
-    width: calc((100%/7) - 30px);
-    aspect-ratio: 1 / 1;
-    display: inline-block;
-    border: 1px solid;
-    margin: 10px;
-    text-align: center;
     background-color: lightcoral;
 }
 
 .fizz {
-    width: calc((100%/7) - 30px);
-    aspect-ratio: 1 / 1;
-    display: inline-block;
-    border: 1px solid;
-    margin: 10px;
-    text-align: center;
     background-color: yellow;
 }
 
 .buzz {
-    width: calc((100%/7) - 30px);
-    aspect-ratio: 1 / 1;
-    display: inline-block;
-    border: 1px solid;
-    margin: 10px;
-    text-align: center;
     background-color: greenyellow;
-}
-
-.box > div {
-    vertical-align: middle;
 }
