@@ -11,14 +11,15 @@ body {
 
 
 .box {
-    width: calc((100%/7) - 30px);
-    aspect-ratio: 1 / 1;
-    display: inline-block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
     border: 1px solid;
     margin: 10px;
     text-align: center;
     font-weight: bold;
     background-color: blue;
+    display: inline-block;
 }
 
 .fizzbuzz {

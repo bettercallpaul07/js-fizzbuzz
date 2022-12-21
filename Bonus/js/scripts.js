@@ -5,6 +5,7 @@ const div = document.querySelector('div.container');
 for (let index = 1; index <= 100; index++) {
     
     const newDiv= document.createElement("div");
+
     newDiv.innerHTML = `${index}`;
     newDiv.className = `box box-${index}`;
 
